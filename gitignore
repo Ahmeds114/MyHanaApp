@@ -1,0 +1,36 @@
+# Node.js dependencies
+node_modules/
+*.log
+
+# Build artifacts
+gen/
+.cds_services.json
+
+# Environment files
+*.env
+.env.*
+
+# CDS configuration and metadata files
+.cdsrc.json
+*.cdsrc.*
+
+# Temporary files
+.pipeline/
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+
+# SAP-specific files
+.hdiconfig
+.hdi*
+*.undeploy.json
+
+# Sensitive files
+credentials.json
+secret.json
+
+# Ignore deployment configurations
+mta_archives/
+mtar/
